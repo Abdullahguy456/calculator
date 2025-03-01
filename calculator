@@ -1,0 +1,20 @@
+#subroutines
+def multiply():
+    num1=int(input("Enter number 1:"))
+    num2=int(input("Enter number 2"))
+    total=num1*num2
+    print(num1,"x",num2,"=",total)
+def divde():
+    num1=int(input("Enter number1:"))
+    num2=int(input("Enter number 2:"))
+    total=num1/num2
+    print(num1,"-:-",num2,"=",total)
+#Mainprogram
+while True:
+    choice=input("Enter divide or multiply, or stop to end the program:")
+    if choice=="multiply":
+        multiply()
+    elif choice =="divide":
+        divde()
+    else:
+        break
